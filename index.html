@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+  <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+
+  <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+  <script src="https://kit.fontawesome.com/946b286fe8.js" crossorigin="anonymous"></script>
+
+  <title>AlgoSTEM</title>
+</head>
+
+<body>
+  <div class="container bg-wrap" id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav1">
+      <a class="navbar-brand" href="#">AlgoSTEM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto my-2 my-lg-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="#teamc">ABOUT</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CHANNEL</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">COURSES</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container overflow-auto">
+      <div class="row align-items-center">
+        <div class="col-6 mx-auto">
+          <div class="jumbotron jumbotron-fluid overflow-auto" id="box">
+            <div class="container-fluid">
+              <h1 class="text-center" id="title">AlgoSTEM</h1>
+              <br>
+              <p class="text-center" id="jumboP">Our mission is to provide <b>free educational resources</b> to anyone
+                interested in learning <b>computer science, math, and physics</b> at a higher level.
+              </p>
+              <br>
+              <div class="text-center" id="lm2">
+                <button type="button" class="btn btn-outline-light btn-block" id="LM">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-md-center" id="teamc">
+    <div class="column my-5">
+      <div class="card border-secondary">
+        <img src="https://pbs.twimg.com/profile_images/1034119531306790912/M8PlETub.jpg" alt="Jane" style="width:100%">
+        <div class="container">
+          <h3 class="my-2 text-center" id="founder">John Doe</h3>
+          <p class="title text-center">Founder</p>
+          <p class="text-center">Example Text</p>
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="l1"><i class="fab fa-linkedin-in"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="f1"><i class="fab fa-facebook-f"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="g1"><i class="fab fa-github"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="m1"><i class="fas fa-envelope"></i><span></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="column my-5">
+      <div class="card border-secondary">
+        <img src="https://www.zyloware.com/images/Square-Shaped-Face.png" alt="John" style="width:100%">
+        <div class="container">
+          <h3 class="my-2 text-center" id="webdev">Jane Doe</h3>
+          <p class="title text-center">Web Developer</p>
+          <p class="text-center">Some text</p>
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="l1"><i class="fab fa-linkedin-in fa-circle"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="f1"><i class="fab fa-facebook-f"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="g1"><i class="fab fa-github"></i><span></span></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="icon-button" id="m1"><i class="fas fa-envelope"></i><span></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Default form register -->
+  <form class="text-center p-5" id="contact-form" action="#!">
+
+    <p class="h4 mb-4">Contact Us</p>
+
+    <div class="form-row mb-4">
+      <div class="col">
+        <!-- First name -->
+        <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+        <!-- Last name -->
+        <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+
+    <!-- E-mail -->
+    <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password"
+      aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
+    <!-- Sign up button -->
+    <button class="btn btn-info my-4 btn-block" type="submit">Submit</button>
+  </form>
+  <!-- Default form register -->
+
+  <footer class="page-footer font-small special-color-dark pt-4">
+
+    <div class="container">
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <!--
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="fb"><i class="fab fa-facebook-f"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="insta"><i class="fab fa-instagram"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="link"><i class="fab fa-linkedin-in"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="signal"><i class="far fa-comment"></i><span></span></a>
+        </li>
+      -->
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="youtube"><i class="fab fa-youtube"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="insta"><i class="fab fa-instagram"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="mail"><i class="fas fa-envelope"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="git"><i class="fab fa-github"></i><span></span></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" class="icon-button" id="udemy"><span class="iconify" data-icon="simple-icons:udemy"
+              data-inline="false"></span></a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="footer-copyright text-center py-3" id="bottom-footer">Copyright &copy; 2020<br>AlgoSTEM</div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
