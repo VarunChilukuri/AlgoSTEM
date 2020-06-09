@@ -10,14 +10,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain cover;
-    font-family: 'Bellota Text';
+    font-family: 'Montserrat';
     height: 100vh;
     min-height:100vh;
     /*font-fami ly: 'Anaheim'*/
   }
 
 #team{
-  font-family: 'Bellota Text';
+  font-family: 'Montserrat';
 }
   
 .team-member {
@@ -118,7 +118,7 @@ color:#3a76f0;
 }
 #bottom-footer{
   background-color:#1f282e;
-  font-family: 'Bellota Text';
+  font-family: 'Montserrat';
 }
 /*
 #insta:hover {
@@ -198,7 +198,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   /*background: url(bg2.jpg); 
   background: lightslategray; */
   background: #8859a9;
-  font-family: 'Bellota Text';
+  font-family: 'Montserrat';
   max-width: 100%;
   width: 100%;
   -webkit-background-size: cover;
@@ -213,7 +213,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 #teamc{
   margin:auto;
   width:70%;
-  font-family: 'Bellota Text';
+  font-family: 'Montserrat';
 }
 
 #l1{
@@ -233,7 +233,7 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 }
 
 #contact{
-  font-family: 'Bellota Text';
+  font-family: 'Montserrat';
 }
 
 section#contact {
