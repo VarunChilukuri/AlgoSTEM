@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
   <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat"rel="stylesheet"  >
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -38,7 +38,7 @@
             <a class="nav-link" href="#team">ABOUT</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">CHANNEL</a>
+            <a class="nav-link" href="#channel">CHANNEL</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">COURSES</a>
@@ -114,9 +114,75 @@
       </div>
     </div>
   </section>
+
+  <section class="page-section" id="channel">
+    <div class="container">
+      <h2 class="section-heading text-center" id="channel-title">CHANNEL</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted text-center" id="channel-message">Our Youtube channel, <a
+              href="https://www.youtube.com/channel/UCTRSfadb3x2BJ2h6Y--WlVg/featured">Algorythm</a>, contains
+            informative video solutions to complex coding questions and algorithms.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row channel-row">
+        <div class="col embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNKIx19-1chohaOB3kx5uEw"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col my-auto">
+          <h4 class="text-center"><u>CodeChef Solutions</u></h4>
+          <p class="text-center text-muted">Contains solutions to problems from recent CodeChef competitions including the Long Challenges, Cook-Offs, and Lunchtimes.
+          </p>
+        </div>
+      </div>
+      <div class="row channel-row">
+        <div class="col my-auto">
+          <h4 class="text-center"><u>CodeForces Solutions</u></h4>
+          <p class="text-center text-muted">Goes over various problems from recent Codeforces competitions.</p>
+        </div>
+        <div class="col embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNRIY8_wPFtN5rHZB2PlQGO"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="row channel-row" id="final-row">
+        <div class="col embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+            src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KOey7TfAk32ok4SoWK_0W3f"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col my-auto">
+          <h4 class="text-center"><u>Leetcode Solutions</u></h4>
+          <p class="text-center text-muted">Contains solutions to popular interview questions given by Leetcode.</p>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="row" id="first-video-row">
+      <div class="column embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNKIx19-1chohaOB3kx5uEw" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    -->
+  </section>
+
+
   <section class="page-section" id="contact">
     <div class="container">
-      <h2 class="section-heading text-center" id="contact-title">CONTACT US</h2>
+      <h2 class="section-heading text-center" id="channel-title">CONTACT</h2>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted text-center" id="contact-message">Reach out to us for any additional information or
+            if you would like to help make videos for our organization.</p>
+        </div>
+      </div>
       <form id="contactForm" name="sentMessage" novalidate="novalidate">
         <div class="row align-items-stretch mb-5">
           <div class="col-md-6">
@@ -145,8 +211,7 @@
           </div>
         </div>
         <div class="text-center">
-          <div id="success"></div>
-          <button class="btn btn-primary btn-xl mb-2" id="sendMessageButton" type="submit">Submit</button>
+          <button class="btn btn-primary btn-lg mb-2" id="sendMessageButton" type="submit">Submit</button>
         </div>
       </form>
     </div>
@@ -183,7 +248,8 @@
               class="fas fa-envelope fa-2x"></i><span></span></a>
         </li>
         <li class="list-inline-item">
-          <a href="https://github.com/VarunChilukuri/AlgoSTEM" target="_blank" class="icon-button" id="git"><i class="fab fa-github fa-2x"></i><span></span></a>
+          <a href="https://github.com/VarunChilukuri/AlgoSTEM" target="_blank" class="icon-button" id="git"><i
+              class="fab fa-github fa-2x"></i><span></span></a>
         </li>
         <li class="list-inline-item">
           <a href="https://www.udemy.com/user/arushi-gupta-65/" target="_blank" class="icon-button" id="udemy"><i
