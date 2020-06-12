@@ -1,9 +1,6 @@
+/*Landing Page and Overarching CSS*/
 #home {
     background: url('bg2.jpg') no-repeat center center fixed; 
-    /*
-    background: url("https://images.pexels.com/photos/4261793/pexels-photo-4261793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center fixed;
-    background: url("https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed;
-    background: url("banner.jpg") no-repeat center center fixed;*/
     max-width: 100%;
     width: 100%;
     height: 100vh;
@@ -13,27 +10,7 @@
     -o-background-size: cover;
     background-size: contain cover;
     font-family: 'Montserrat';
-    /*font-fami ly: 'Anaheim'*/
   }
-
-#team{
-  font-family: 'Montserrat';
-}
-  
-.team-member {
-   /* margin-bottom: 3rem; */
-    text-align: center;
-  }
-.team-member img {
-    width: 14rem;
-    height: 14rem;
-    border: 0.5rem solid rgba(0, 0, 0, 0.1);
-  }
-.team-member h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 0;
-  }
-  
 
 .nav-item{
     text-align: right;
@@ -70,128 +47,88 @@ h1
   color: white;
 }
 
-footer{
-  color: white;
-  background-color: #263139;
-  /*background-color:blue;
-  background-color: #494970;*/
-}
+/*About Us and Team Section*/
 
-.icon-button{
-  color: white;
-}
-
-#fb:hover{
-  color:#4267B2;
-}
-#git:hover{
-  color: black;
-}
-#link:hover{
-  color: #0077B5;
-}
-
-#twitter:hover{
-  color: #55acee;
-}
-
-#reddit:hover{
-  color: #FF4301;
-}
-
-#signal:hover{
-color:#3a76f0;
-}
-
-#telegram:hover{
-  color:#0088CC;
-}
-#youtube:hover{
-  color: #FF0000;
-}
-#udemy:hover{
-  color: #ec5252
-}
-#mail:hover{
-  /*color:#D44638;*/
-  color: #55acee;
-}
-#bottom-footer{
-  background-color:#1f282e;
+#team{
   font-family: 'Montserrat';
 }
-/*
-#insta:hover {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
-*/
-
-#insta:hover{
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
-          /* Also define standard property for compatibility */
-          background-clip: text;
-  -webkit-text-fill-color: transparent; 
-}
-
-
-/*
-#insta .fa-instagram {
-  padding: auto;
-}
-#insta .fa-instagram:hover {
-color: #fff;
-background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-}
-*/
-
-/* Three columns side by side */
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+  
+.team-member {
+    text-align: center;
   }
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+.team-member h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+#team-div{
+    margin-bottom:2%;
+  }
+
+#team{
+  background-color: #F8F9F9;
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
+#team{
+  font-family: 'Montserrat';
+  max-width: 100%;
   width: 100%;
+  height: 95vh;
+  min-height: 95vh;
+}
+#team-title{
+  padding-top: 3%;
+}
+
+#team-description{
+  padding-top:5%;
+}
+
+#team-carousel{
+  padding-top:2%;
+}
+
+/*Courses*/
+#courses-title{
+  color:#212529;
+  padding-top:3%;
+}
+
+#courses{
+  font-family: 'Montserrat';
+  background-color: #F8F9F9;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Channel*/
+#channel{
+  font-family: 'Montserrat';
+  background-color: #F8F9F9;
+}
+#channel-message{
+  padding-top: 3%;
+}
+.channel-row{
+  margin-top:3%;
+}
+
+#final-row{
+  margin-bottom:3%;
+}
+
+/*Contact*/
+#contact-title{
+  padding-top:3%;
 }
 
 #contact-form{
@@ -206,69 +143,18 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   -o-background-size: cover;
   background-size: contain cover;
 }
-.button:hover {
-  background-color: #555;
-}
-
-#channel{
-  font-family: 'Montserrat';
-  background-color: #F8F9F9;
-}
-#channel-message{
-  padding-top: 3%;
-}
-
-#team{
-  font-family: 'Montserrat';
-  max-width: 100%;
-  width: 100%;
-  height: 95vh;
-  min-height: 95vh;
-}
-
-#l1{
-  color: black;
-}
-
-#m1{
-  color: black;
-}
-
-#f1{
-  color: black;
-}
-
-#g1{
-  color: black;
-}
-
-#team-title{
-  padding-top: 3%;
-}
-
 #contact-title{
   color: #212429 !important;
 }
-#team-description{
-  padding-top:2%;
+#contact-title-2{
+  padding-top: 3%;
 }
 
-#team-carousel{
-  padding-top:2%;
-}
-.channel-row{
-  margin-top:3%;
-}
-
-#final-row{
-  margin-bottom:3%;
-}
 #contact{
   font-family: 'Montserrat';
   max-width: 100%;
   width: 100%;
   color: black;
-  height: 75vh;
   min-height:75vh;
 }
 
@@ -280,9 +166,6 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
   padding-bottom: 4%;
 }
 
-#team{
-  background-color: #F8F9F9;
-}
 section#contact {
   background-color: #F8F9F9;
 /*  background-image: url("../assets/img/map-image.png"); */
@@ -335,4 +218,116 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
+}
+
+/*Footer*/
+footer{
+  color: white;
+  background-color: #263139;
+}
+
+.icon-button{
+  color: white;
+}
+
+#fb:hover{
+  color:#4267B2;
+}
+#git:hover{
+  color: black;
+}
+#link:hover{
+  color: #0077B5;
+}
+
+#twitter:hover{
+  color: #55acee;
+}
+
+#reddit:hover{
+  color: #FF4301;
+}
+
+#signal:hover{
+color:#3a76f0;
+}
+
+#telegram:hover{
+  color:#0088CC;
+}
+#youtube:hover{
+  color: #FF0000;
+}
+#udemy:hover{
+  color: #ec5252
+}
+#mail:hover{
+  /*color:#D44638;*/
+  color: #55acee;
+}
+#bottom-footer{
+  background-color:#1f282e;
+  font-family: 'Montserrat';
+}
+
+#insta:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+/*Extraneous*/
+
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #555;
 }
