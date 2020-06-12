@@ -74,6 +74,10 @@ h1
   background-color: #F8F9F9;
 }
 
+.person{
+  padding-bottom: 2.25%;
+}
+
 #team{
   font-family: 'Montserrat';
   max-width: 100%;
