@@ -165,7 +165,9 @@ a.custom-card:hover {
   max-width: 100%;
   width: 100%;
   color: black;
+  /*
   min-height:75vh;
+  */
 }
 
 #contact-message{
