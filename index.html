@@ -235,7 +235,8 @@
             if you would like to help make videos for our organization.</p>
         </div>
       </div>
-      <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/mbjzywvk" method="POST">
+      <form id="contactForm" name="sentMessage" novalidate="novalidate" method="POST">
+        <input type="hidden" name="_next" value="//algostem.herokuapp.com/index.html"/>
         <div class="row align-items-stretch mb-5">
           <div class="col-md-6">
             <div class="form-group">
@@ -253,13 +254,13 @@
           </div>
           <div class="col-md-6">
             <div class="form-group form-group-textarea mb-md-0">
-              <textarea class="form-control" id="message" placeholder="Message" name="Message" required data-validation-required-message="Please enter a message."></textarea>
+              <textarea class="form-control" id="message" placeholder="Message" name="message" required data-validation-required-message="Please enter a message."></textarea>
               <p class="help-block text-danger"></p>
             </div>
           </div>
         </div>
         <div class="text-center">
-          <button class="btn btn-primary btn-lg mb-2" id="submit-button" type="submit">Submit</button>
+          <button class="btn btn-primary btn-lg mb-2" id="sendMessage" type="submit">Submit</button>
         </div>
       </form>
     </div>
