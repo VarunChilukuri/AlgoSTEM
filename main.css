@@ -121,6 +121,10 @@ a.custom-card:hover {
   padding-top:3%;
 }
 
+.playlist-title{
+  padding-top: 1.5%;
+}
+
 #channel{
   font-family: 'Montserrat';
   background-color: #F8F9F9;
