@@ -125,6 +125,10 @@ a.custom-card:hover {
   padding-top: 1.5%;
 }
 
+.channel-description{
+  padding-bottom:1.5%;
+}
+
 #channel{
   font-family: 'Montserrat';
   background-color: #F8F9F9;
