@@ -2,14 +2,15 @@
 #home {
     background: url('desk_background.jpeg') no-repeat center center fixed;
     max-width: 100%;
-    width: 100%;
     height: 100vh;
+        /*
+    width: 100%;
     min-height:100vh;
+    */
     -webkit-background-size: cover;
     -moz-background-size: cover; 
     -o-background-size: cover;
-    /*background-size: contain cover; */
-    background-size: cover;
+    background-size: contain cover;
     font-family: 'Montserrat';
   }
 
@@ -22,7 +23,6 @@
   background-color: black;
   opacity: 0.8;
   line-height: 200%;
-  max-height: 90%;
 }
 
 #lm2{
