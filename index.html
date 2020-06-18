@@ -239,7 +239,7 @@
       </div>
       <form id="contactForm" name="sentMessage" action="https://formspree.io/mbjzywvk" method="POST">
         <input type="hidden" name="_next" value="//algostem.herokuapp.com/index.html#contact"/>
-        <div class="row align-items-stretch mb-5">
+        <div class="row align-items-stretch">
           <div class="col-md-6">
             <div class="form-group">
               <input class="form-control" id="name" type="text" name="Full Name" placeholder="Name" required data-validation-required-message="Please enter your name." />
@@ -261,8 +261,8 @@
             </div>
           </div>
         </div>
-        <div class="text-center">
-          <button class="btn btn-primary btn-lg mb-2" id="sendMessage" type="submit">Submit</button>
+        <div class="text-center my-auto" id="submit-button">
+          <button class="btn btn-primary" id="sendMessage" type="submit">Submit</button>
         </div>
       </form>
     </div>

@@ -186,6 +186,11 @@ a.custom-card:hover {
   padding-bottom: 4%;
 }
 
+#submit-button{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 section#contact {
   background-color: #F8F9F9;
 /*  background-image: url("../assets/img/map-image.png"); */
