@@ -21,16 +21,7 @@
   background-color: black;
   opacity: 0.8;
   line-height: 200%;
-  max-width:60%;
 }
-
-
-@media (min-width: 576px) {
-  #box{
-    max-width:90%;
-  }
-}
-
 
 #lm2{
   padding-left:10%;
