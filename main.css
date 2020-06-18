@@ -24,13 +24,13 @@
   max-width:60%;
 }
 
-/*
+
 @media (min-width: 576px) {
   #box{
-    
+    max-width:90%;
   }
 }
-*/
+
 
 #lm2{
   padding-left:10%;
