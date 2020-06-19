@@ -4,21 +4,9 @@ body, html{
   height:100%;
 }
 
-@media (min-width: 576px) {
-  #home{
-    background-attachment: scroll;
-  }
-}
-
-@media (min-width: 768px) {
-  #home{
-    background-attachment: scroll;
-  }
-}
-
 #home {
     background-image: url('desk_background.jpeg'); /*no-repeat center center fixed*;*/
-    background-attachment: fixed;
+    background-attachment: scroll;
     max-width: 100%;
     height: 100%;
     background-position: center;
