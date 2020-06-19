@@ -1,16 +1,27 @@
 /*Landing Page and Overarching CSS*/
+
+body, html{
+  height:100%;
+}
+
 #home {
-    background: url('desk_background.jpeg') no-repeat center center fixed;
+    background-image: url('desk_background.jpeg'); /*no-repeat center center fixed*;*/
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*
     max-width: 100%;
     height: 100vh;
-        /*
     width: 100%;
     min-height:100vh;
     */
     -webkit-background-size: cover;
     -moz-background-size: cover; 
     -o-background-size: cover;
-    background-size: contain cover;
+    /*background-size: contain cover; */
     font-family: 'Montserrat';
   }
 
