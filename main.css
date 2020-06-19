@@ -38,23 +38,36 @@ body, html{
   /* line-height: 200%; */
 }
 
+@media(max-width:568px) {
+  .jumbotron{
+    background-size: contain;
+    max-height:50%;
+  } 
+}
+
 #lm2{
+  /*
   padding-left:10%;
   padding-right:10%
+  */
 }
 
 #jumboP{
+  /*
   padding-left:3%;
   padding-right:3%;
+  */
 }
 
 #title{
   border-bottom: solid 2px;
   border-top: solid 2px;
-  margin-right: 6%;
-  margin-left: 6%;
   padding-top: 4%;
   padding-bottom: 4%;
+  /*
+  margin-right: 6%;
+  margin-left: 6%;
+  */
 }
 
 h1
