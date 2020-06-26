@@ -1,7 +1,7 @@
 /*Landing Page and Overarching CSS*/
 /*
-body, html{
-  height:100%;
+html{
+  scroll-behavior: smooth;
 }
 */
 
@@ -14,18 +14,6 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*
-    max-width: 100%;
-    height: 100vh;
-    width: 100%;
-    min-height:100vh;
-    */
-    /*
-    -webkit-background-size: cover;
-    -moz-background-size: cover; 
-    -o-background-size: cover;
-    */
-    /*background-size: contain cover; */
     font-family: 'Montserrat';
   }
 
@@ -63,7 +51,6 @@ body, html{
   color: white;
   background-color: black;
   opacity: 0.8;
-  /* line-height: 200%; */
 }
 
 @media(max-width:568px) {
@@ -73,29 +60,11 @@ body, html{
   } 
 }
 
-#lm2{
-  /*
-  padding-left:10%;
-  padding-right:10%
-  */
-}
-
-#jumboP{
-  /*
-  padding-left:3%;
-  padding-right:3%;
-  */
-}
-
 #title{
   border-bottom: solid 2px;
   border-top: solid 2px;
   padding-top: 4%;
   padding-bottom: 4%;
-  /*
-  margin-right: 6%;
-  margin-left: 6%;
-  */
 }
 
 h1
@@ -138,10 +107,6 @@ h1
   font-family: 'Montserrat';
   max-width: 100%;
   width: 100%;
-  /*
-  height: 95vh;
-  min-height: 95vh;
-  */
 }
 #team-title{
   padding-top: 3%;
@@ -206,8 +171,6 @@ a.custom-card:hover {
 }
 
 #contact-form{
-  /*background: url(bg2.jpg); 
-  background: lightslategray; */
   background: #8859a9;
   font-family: 'Montserrat';
   max-width: 100%;
@@ -229,9 +192,6 @@ a.custom-card:hover {
   max-width: 100%;
   width: 100%;
   color: black;
-  /*
-  min-height:75vh;
-  */
 }
 
 #contact-message{
@@ -249,7 +209,6 @@ a.custom-card:hover {
 
 section#contact {
   background-color: #F8F9F9;
-/*  background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
