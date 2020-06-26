@@ -1,9 +1,8 @@
 /*Landing Page and Overarching CSS*/
-/*
+
 html{
   scroll-behavior: smooth;
 }
-*/
 
 #home {
     background-image: url('desk_background.jpeg'); /*no-repeat center center fixed*;*/
