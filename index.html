@@ -45,6 +45,11 @@
         return false;
       });
     });
+    jQuery.event.special.touchstart = {
+        setup: function( _, ns, handle ){
+            this.addEventListener("touchstart", handle, { passive: true });
+        }
+    };
   </script>
   <div class="container bg-wrap" id="home">
     <nav class="navbar navbar-expand-lg navbar-dark" id="nav1">
