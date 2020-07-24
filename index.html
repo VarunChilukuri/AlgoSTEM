@@ -46,9 +46,9 @@
       });
     });
     jQuery.event.special.touchstart = {
-        setup: function( _, ns, handle ){
-            this.addEventListener("touchstart", handle, { passive: true });
-        }
+      setup: function (_, ns, handle) {
+        this.addEventListener("touchstart", handle, { passive: true });
+      }
     };
   </script>
   <div class="container bg-wrap" id="home">
@@ -103,8 +103,8 @@
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
           <p class="large text-muted text-center" id="channel-message">Our Youtube channel, <a
-              href="https://www.youtube.com/channel/UCTRSfadb3x2BJ2h6Y--WlVg/featured" title="Algorythm Youtube Channel" rel="noopener"
-              target="_blank">Algorythm</a>,
+              href="https://www.youtube.com/channel/UCTRSfadb3x2BJ2h6Y--WlVg/featured" title="Algorythm Youtube Channel"
+              rel="noopener" target="_blank">Algorythm</a>,
             contains
             informative video solutions to complex coding questions and algorithms.</p>
         </div>
@@ -113,9 +113,15 @@
     <div class="container">
       <div class="row channel-row">
         <div class="col-md mx-4 mx-md-0 embed-responsive embed-responsive-16by9">
+          <!--
           <iframe class="embed-responsive-item" loading="lazy" title="CodeChef Solutions Playlist"
             src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNKIx19-1chohaOB3kx5uEw"
             allowfullscreen></iframe>
+          -->
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNKIx19-1chohaOB3kx5uEw&autoplay=1&loop=1"
+            srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNKIx19-1chohaOB3kx5uEw&autoplay=1&loop=1><img src='codechef.jpeg' alt='CodeChef Solutions Playlist'><span>▶</span></a>"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen title="CodeChef Solutions Playlist"></iframe>
         </div>
         <div class="col-md my-auto">
           <h4 class="text-center playlist-title">CodeChef Solutions</h4>
@@ -127,9 +133,15 @@
       </div>
       <div class="row channel-row">
         <div class="col-md order-md-12 mx-4 mx-md-0 embed-responsive embed-responsive-16by9">
+          <!--
           <iframe class="embed-responsive-item" loading="lazy" title="CodeForces Solutions Playlist"
             src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNRIY8_wPFtN5rHZB2PlQGO"
-            allowfullscreen></iframe>
+            allowfullscreen></iframe> 
+          -->
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNRIY8_wPFtN5rHZB2PlQGO&autoplay=1&loop=1"
+          srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KNRIY8_wPFtN5rHZB2PlQGO&autoplay=1&loop=1><img src='codeforces.jpeg' alt='CodeForces Solutions Playlist'><span>▶</span></a>"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen title="CodeForces Solutions Playlist"></iframe>
         </div>
         <div class="col-md order-md-1 my-auto">
           <h4 class="text-center playlist-title">CodeForces Solutions</h4>
@@ -139,9 +151,15 @@
       </div>
       <div class="row channel-row" id="final-row">
         <div class="col-md mx-4 mx-md-0 embed-responsive embed-responsive-16by9">
+          <!--
           <iframe class="embed-responsive-item" loading="lazy" title="Leetcode Solutions Playlist"
             src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KOey7TfAk32ok4SoWK_0W3f"
             allowfullscreen></iframe>
+          -->
+          <iframe src="https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KOey7TfAk32ok4SoWK_0W3f&autoplay=1&loop=1"
+          srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/videoseries?list=PLeQDIBLI_1KOey7TfAk32ok4SoWK_0W3f&autoplay=1&loop=1><img src='leetcode.jpeg' alt='Leetcode Solutions Playlist'><span>▶</span></a>"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen title="Leetcode Solutions Playlist"></iframe>
         </div>
         <div class="col-md my-auto">
           <h4 class="text-center playlist-title">Leetcode Solutions</h4>
@@ -182,8 +200,8 @@
           </a>
         </div>
         <div class="col-md-4 mb-3">
-          <a href="https://www.udemy.com/course/mastering-algebra-for-the-amc-10/" title="Mastering Algebra for the AMC 10 Course" rel="noopener" target="_blank"
-            class="custom-card">
+          <a href="https://www.udemy.com/course/mastering-algebra-for-the-amc-10/"
+            title="Mastering Algebra for the AMC 10 Course" rel="noopener" target="_blank" class="custom-card">
             <div class="card mb-4 shadow-sm h-100">
               <img class="card-img-top" src="amc-course-photo.jpeg" alt="Mastering Algebra for the AMC 10 Course">
               <div class="card-body">
@@ -220,10 +238,10 @@
             <img class="mx-auto rounded-circle" src="arushi.jpeg" alt="Arushi Gupta" />
             <h4>Arushi Gupta</h4>
             <p class="text-muted">Co-Founder</p>
-            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/arushi-gupta-1861491aa/" rel="noopener" target="_blank"><i
-              class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/arushi-gupta-1861491aa/"
+              rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a class="btn btn-dark btn-social mx-2" href="mailto:arushig100@gmail.com" rel="noopener" target="_blank"><i
-              class="fas fa-envelope"></i></a>
+                class="fas fa-envelope"></i></a>
           </div>
         </div>
         <div class="col-md-4 person">
@@ -232,7 +250,7 @@
             <h4>Akshaj Gupta</h4>
             <p class="text-muted">Co-Founder</p>
             <a class="btn btn-dark btn-social mx-2" href="mailto:aksh8work@gmail.com" rel="noopener" target="_blank"><i
-              class="fas fa-envelope"></i></a>
+                class="fas fa-envelope"></i></a>
           </div>
         </div>
         <div class="col-md-4 person">
