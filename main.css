@@ -28,6 +28,12 @@ body{
   margin-top: 4%;
 }
 
+@media(max-width:768px) {
+  #jumbo222{
+    margin-top: 40%;
+  }
+}
+
 #lm_button{
   text-decoration: none;
 }
